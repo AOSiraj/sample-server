@@ -1,2 +1,2 @@
-To install Dependencies;
+To install Dependencies:
 ``` composer update```
