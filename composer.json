@@ -1,0 +1,27 @@
+{
+  "name": "prism/server-application",
+  "description": "PRISM Server Application",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "server",
+    "prism",
+    "zf2"
+  ],
+  "repositories": [
+    { "type": "vcs", "url": "git@github.com:AOSiraj/reddit-wrapper.git" }
+  ],
+  "homepage": "http://framework.zend.com/",
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "<3.0.0",
+    "zendframework/zend-console": "^2.6",
+    "zfcampus/zf-api-problem": "1.*",
+
+    "aosiraj/RedditWrapper":"dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Vendor\\Namespace\\": "src/"
+    }
+  }  
+}

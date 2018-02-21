@@ -1,0 +1,1 @@
+ping prism-marketing-server test 1
